@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css">
+    <title>List Control</title>
+</head>
+<body>
+    <div class="container">
+        <div class="ListControl">
+            <div>
+                <select name="List1" id="List1" onchange="store(this)">
+                    <option value="0">select</option>
+                    <option value="1">samosa</option>
+                    <option value="2">jalebi</option>
+                    <option value="3">cheese sandwich</option>
+                    <option value="4">momos</option>
+                    <option value="5">biryani</option>
+                    <option value="6">parantha</option>
+                </select>
+
+                <button class="btn btn-primary" onclick="add()">Add</button>
+
+                <select name="List2" id="List2">
+                    <option value="0">select</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+    <script src="./ListControl.js"></script>
+</body>
+</html>
